@@ -8,5 +8,6 @@ api_blueprint = Blueprint('dictionary-api', __name__)
 
 api = Api(api_blueprint)
 
+# Comment
 api.add_resource(Search, '/search')
 api.add_resource(Words, '/words/<string:word>')
