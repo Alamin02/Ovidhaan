@@ -2,7 +2,7 @@
 An English-to-Bengali dictionary made out of scraped web data
 
 ## Flask API
-- Change directory to `api` and install the dependencies from requirements.txt
+- To run the API Install the dependencies from requirements.txt
 - Use the command `python run.py` file to start server at `http://localhost:5000/`
 - For unit testing, install `pytest` and then enter command `pytest test_api.py`
 
@@ -11,6 +11,7 @@ An English-to-Bengali dictionary made out of scraped web data
 - Install dependencies with command `npm install`
 - To run development mode use command `npm run serve`, the server will start at  `http://localhost:8080/`
 - To create a production build run 'npm run build'
+- To be able to fetch data you have to keep the API running
 
 ## Web Crawler
 - To run the scraper install `Scrapy`.
