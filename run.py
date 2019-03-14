@@ -10,7 +10,7 @@ def create_app():
 
     app.config.from_mapping(
         SECRET_KEY='dev',
-        DATABASE=os.path.join(app.root_path, 'database\database.db'),
+        DATABASE=os.path.join(app.root_path, 'database', 'database.db'),
     )
 
     CORS(app)
